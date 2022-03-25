@@ -3,7 +3,7 @@
 }
 
 .explore-image:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .explore-gallery{
@@ -13,7 +13,7 @@
 }
 
 .explore-gallery img{
-	height: 200px;
+	height: 220px;
     width: 400px;
 	border: 3px solid rgb(100, 154, 224);
 	border-radius: 10px;
@@ -23,10 +23,10 @@
     .explore-gallery{
         margin: 0 auto;
         display: grid;
-        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .explore-gallery img{
-        height: 100px;
+        height: 110px;
         width: 200px;
 	}
 
