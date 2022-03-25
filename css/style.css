@@ -1,0 +1,71 @@
+body{
+	margin:1%;
+	padding:1%;
+	font-size:150%;
+	background-color: pink;
+	font-family: Arial, Helvetica, sans-serif;
+	word-spacing: 0.2em;
+  	line-height: 1.3;
+}
+
+h1{
+	font-size: 2em; 
+	font-weight: bold;
+	text-align: center;
+	padding: 10%;
+	font-family: "Sofia", sans-serif;
+}
+
+h2{
+	font-size: 1.2em; 
+	font-weight: bold;
+}
+
+p, h1, h2 {
+    padding: 10px;
+}
+
+main, h1 {
+	border: 2px solid pink;
+	margin: 10px 0;
+}
+
+a, a:visited {
+    color: brown;
+}
+
+.nav_item a{
+    line-height: 1.8;
+}
+
+.nav_item a:hover{
+    text-decoration: underline;
+}
+
+.nav_item a:active, .nav_item a:focus{
+    text-decoration: underline;
+}
+
+.nav_links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    width: 20%;
+    animation: logo_move 3s;
+}
+
+@keyframes logo_move {
+    from {width: 20%; opacity: 0;}
+    to {width: 25%; opacity: 1;}
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #logo {
+        animation: none;
+    }
+}
